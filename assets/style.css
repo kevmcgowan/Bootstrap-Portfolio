@@ -1,4 +1,45 @@
+/* Navigation bar */
 
+/* General 
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}*/
+.navbar-brand img {
+  padding-right: 15px;
+  width: 100px;
+}
+.nav-item {
+  margin: 0px 15px;
+} */
+
+/* Navigation dropdown menu */
+.dropdown-menu {
+  background: url("../Images/images.jfif");
+  background-color: transparent !important;
+  background-size: cover;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background: black;
+}
+
+/* Navigation links */
+.customNav a {
+  color: rgb(15, 14, 14) !important;
+}
+.navCTA {
+  font-size: 15px;
+}
 
 /* Jumbotron */
 .jumbotron {
@@ -8,9 +49,24 @@
     margin: 50;
 }
 
+.jumbotron h1 {
+  color: white;
+}
+.jumbotron p {
+  font-weight: bold;
+  color: white;
+}
 
+.card container-fluid 
 
+.btn {
+  border-radius: 15px;
+}
 
+.btn:hover{
+  box-shadow: 0px 2px 10px red;
+  transform: scale(1.2);
+}
 
 /* Footer */
 a {
