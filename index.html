@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
     
@@ -21,18 +20,32 @@
 
 <body>
   <!-- Navigation Section -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
-    <a class="navbar-brand" href="#"><img src="images/Me.png">Kevin McGowan</a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Venues <span class="sr-only">(current)</span></a>
-        </li>
-        
-          
-        </li>              
-      </ul>
-    </div>
+  
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+	<!-- Brand -->
+	<a class="navbar-brand" href="#">Kevin McGowan's Portfolio</a>
+	<img src="./images/Me.png" width="60" height="60" alt="">
+  
+	<!-- Toggler/collapsibe Button -->
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+  
+	<!-- Navbar links -->
+	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+	  <ul class="navbar-nav">
+		<li class="nav-item">
+		  <a class="nav-link" href="#footer">Contact Me</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="mailto:kevmcgowan@outlook.com">email</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="#">About</a>
+		</li> 
+	  </ul>
+	</div> 
+		
   </nav>
 
 <!-- Hero Jumbotron Section -->
@@ -40,7 +53,7 @@
 	<div class="container-fluid">
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-4">A begining in Front End Web Dev.</h1>
+				<h1 class="display-4">A Begining in Front End Web Dev.</h1>
 				<p class="lead"></p>
 			</div>
 		</div>
@@ -52,33 +65,33 @@
 		<div class="row">
 			<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
 			<div class="card">
-				<img src="images/digital-marketing-meeting.jpg" class="card-img-top" alt="...">
+				<img src="images/html-1-min.png" class="card-img-top" alt="...">
 				<div class="card-body">
-				<h5 class="card-title">Card title</h5>
-				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				<a href="https://kevmcgowan.github.io/challenge_01/" class="btn btn-primary">challenge_01</a>
+				<h5 class="card-title">HTML</h5>
+				<p class="card-text">The start of my Front End Web Developer card has started with a journey into HTML. But I am sure this will be a very rewarding expierience.</p>
+				<a href="https://github.com/kevmcgowan/Bootstrap-Portfolio/blob/main/index.html" class="btn btn-primary">HTML Sample</a>
 				</div>
 			</div>
 		</div>
 
 		<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
 			<div class="card">
-				<img src="Images/images (1).jfif" class="card-img-top" alt="...">
+				<img src="Images/css-1-min.png" class="card-img-top" alt="...">
 				<div class="card-body">
-				<h5 class="card-title">Card title</h5>
-				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				<a href="#" class="btn btn-primary">Go somewhere</a>
+				<h5 class="card-title">CSS</h5>
+				<p class="card-text">CSS, initially a very confusing concept to grasp, but it's getting slightly easier as the courses progresses. Maybe I'll be a CSS ninja one day!</p>
+				<a href="https://github.com/kevmcgowan/Bootstrap-Portfolio/blob/main/assets/style.css" class="btn btn-primary">CSS Sample</a>
 				</div>
 			</div>
 		</div>
 
 		<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
 			<div class="card">
-				<img src="Images/images (1).jfif" class="card-img-top" alt="...">
+				<img src="images/js-1-min.png" class="card-img-top" alt="...">
 				<div class="card-body">
-				<h5 class="card-title">Card title</h5>
-				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				<a href="#" class="btn btn-primary">Go somewhere</a>
+				<h5 class="card-title">JS</h5>
+				<p class="card-text">I haven't had the pleasure of JavaScritp yet!</p>
+				<a href="https://github.com/kevmcgowan/Bootstrap-Portfolio/blob/main/JavaScript" class="btn btn-primary">JavaScript Sample</a>
 				</div>
 			</div>
 		</div>
@@ -128,6 +141,7 @@
 		</div>
 	  </div>
 
+
 	
 	
 
@@ -145,17 +159,17 @@
 					</a>
 				</li>
 				<li class="list-inline-item">
-					<a href="https://www.linkedin.com/in/kevin-mcgowan-1aab0529/" class="sbtn btn-large mx-1" title="Linkedin" id="linkedin">
+					<a href="https://www.linkedin.com/in/kevin-mcgowan-1aab0529/" class="sbtn btn-large mx-1" title="Linkedin">
 						<i class="fab fa-linkedin fa-2x"></i>
 					</a>
 				</li>
 				<li class="list-inline-item">
-					<a href="https://twitter.com/kev_mcgowan" class="sbtn btn-large mx-1" title="Twitter" id="twitter">
+					<a href="https://twitter.com/kev_mcgowan" class="sbtn btn-large mx-1" title="Twitter">
 						<i class="fab fa-twitter-square fa-2x"></i>
 					</a>
 				</li>
 				<li class="list-inline-item">
-					<a href="https://github.com/kevmcgowan" class="sbtn btn-large mx-1" title="Github" id="github">
+					<a href="https://github.com/kevmcgowan" class="sbtn btn-large mx-1" title="Github">
 						<i class="fab fa-github-square fa-2x"></i>
 					</a>
 				</li>
@@ -166,7 +180,8 @@
 		<!--Footer Links-->
 		<div class="container text-left text-md-center">
 			<div class="row">
-				<!--First column-->
+
+				<!--First column, to be added at a later date--
 				<div class="col-md-3 mx-auto shfooter">
 					<h5 class="my-2 font-weight-bold d-none d-md-block">Product</h5>
 					<div class="d-md-none title" data-target="#Product" data-toggle="collapse">
@@ -184,9 +199,9 @@
 						<li><a href="#">Website Support</a></li>
 					</ul>
 				</div>
-				<!--/.First column-->
+				<!--/.First column--
 				<hr class="clearfix w-100 d-md-none mb-0">
-				<!--Second column-->
+				<!--Second column--
 				<div class="col-md-3 mx-auto shfooter">
 					<h5 class="my-2 font-weight-bold d-none d-md-block">Company</h5>
 					<div class="d-md-none title" data-target="#Company" data-toggle="collapse">
@@ -205,9 +220,9 @@
 						<li><a href="#">FAQ</a></li>
 					</ul>
 				</div>
-				<!--/.Second column-->
+				<!--/.Second column--
 				<hr class="clearfix w-100 d-md-none mb-0">
-				<!--Third column-->
+				<!--Third column--
 				<div class="col-md-3 mx-auto shfooter">
 					<h5 class="my-2 font-weight-bold d-none d-md-block">Resources</h5>
 					<div class="d-md-none title" data-target="#Resources" data-toggle="collapse">
@@ -226,9 +241,9 @@
 						<li><a href="#">Website Grader</a></li>
 					</ul>
 				</div>
-				<!--/.Third column-->
+				<!--/.Third column--
 				<hr class="clearfix w-100 d-md-none mb-0">
-				<!--Fourth column-->
+				<!--Fourth column--
 				<div class="col-md-3 mx-auto shfooter">
 					<h5 class="my-2 font-weight-bold d-none d-md-block">Get Help</h5>
 					<div class="d-md-none title" data-target="#Get-Help" data-toggle="collapse">
