@@ -1,8 +1,9 @@
 /* Navigation bar */
 
-.navbar-brand img {
-  padding-right: 15px;
+.nav-logo {
+  list-style: url(../images/Me.png);
 }
+
 .nav-item {
   margin: 0px 15px;
 } 
@@ -30,6 +31,7 @@
 }
 
 .card container-fluid {
+  display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
   row-gap: 50px;
@@ -37,8 +39,6 @@
 
 .card {
   display: flex;
-  flex-direction: column;
-  height: 100%;
 }
 
 .cardContainer {
