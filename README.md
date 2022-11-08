@@ -10,9 +10,9 @@ This repository requires no installation
 
 Usage
 
-The links in the navBar will take you to the contact me at teh bottom of the page where you will find multiple means of communicating with me should yo so wish.
+The links in the navBar will take you to the contact me at the bottom of the page where you will find multiple means of communicating with me should you so wish.
 
-To navigate this repo just click the buttons in either the cards or the carsousel and this with open up the repository conating the code used to construction the challenges I have completed to date. This will be added to as the course progresses.
+To navigate this repo just click the buttons in either the cards or the carousel, this will open up the repository containing the code used to construct the challenges I have completed to date. This will be added to as the course progresses.
 
 Web Page & Repository 
 
@@ -22,7 +22,7 @@ Please click the link below to view the repository containg the code used to cre
 
 https://github.com/kevmcgowan/Bootstrap-Portfolio
 
-Please click teh link to view the portfolio.
+Please click the link to view the portfolio.
 
 https://kevmcgowan.github.io/Bootstrap-Portfolio/
 
