@@ -2,99 +2,37 @@
 Week 3 Challenge Repo
 
 
-# Unit 3 Challenge: Code Bootstrap Portfolio
+Description
 
-## Overview
+Installation
 
-In this assignment, you'll be building your portfolio layout using the Bootstrap CSS Framework.
+This repository requires no installation
 
-## Before You Begin
+Usage
 
-* You've learned a ton of material: HTML, CSS, GitHub, GitHub Pages, and Bootstrap. If you feel like you're falling behind, there's no need to panic. You'll have plenty of time to digest and master this material.
+The links in the navBar will take you to the contact me at teh bottom of the page where you will find multiple means of communicating with me should yo so wish.
 
-* We're diving into JavaScript next unit, and HTML/CSS will start receiving less focus. Still, you'll find that a basic knowledge of HTML/CSS will help you understand JavaScript, especially when we use it to manipulate web pages.
+To navigate this repo just click the buttons in either the cards or the carsousel and this with open up the repository conating the code used to construction the challenges I have completed to date. This will be added to as the course progresses.
 
-## Commits
+Web Page & Repository 
 
-* Having an active and healthy commit history on GitHub is important for your future job search. It is also extremely important for making sure your work is saved in your repository. If something breaks, committing often ensures you are able to go back to a working version of your code.
+![Screenshot](images/Screenshot-of-webpage.png?raw=true "Screenshot")
 
-* Committing often is a signal to employers that you are actively working on your code and learning.
+Please click the link below to view the repository containg the code used to create the portfolio.
 
-  * We use the mantra “commit early and often.”  This means that when you write code that works, add it and commit it!
+https://github.com/kevmcgowan/Bootstrap-Portfolio
 
-  * Numerous commits allow you to see how your app is progressing and give you a point to revert to if anything goes wrong.
+Please click teh link to view the portfolio.
 
-* Be clear and descriptive in your commit messaging.
+https://kevmcgowan.github.io/Bootstrap-Portfolio/
 
-  * When writing a commit message, avoid vague messages like "fixed." Be descriptive so that you and anyone else looking at your repository knows what happened with each commit.
+Credits
+Kevin McGowan
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
 
-## Instructions
 
-1. Create a new GitHub repositories and name it `Bootstrap-Portfolio`.
 
-2. Clone this repository to your computer.
 
-3. Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.
-   
-   - Create a folder structure.
-
-     - Create a `index.html`.
-
-     - Create a `css` folder.
-
-       - Inside create a `style.css` file.
-
-   - Create an `images` folder.
-
-       - Place all your images in this folder.
-
-4. Using Bootstrap, recreate your portfolio site with the following items:
-
-   The website should include the following bootstrap components:
-
-    - A Navigation bar
-    
-    - A navigation menu at the top. Feel free to use bootstrap's navbar or create your own.
-
-      - Include links that are applicable to your portfolio.
-  
-        - Links should navigate to the appropriate sections 
-
-    - A hero section
-
-        - A jumbotron featuring your picture, your name, and any other information you'd like to include.
-
-    - A work section
-
-      - A section displaying your work in grid. 
-
-        - If you need to use placeholder image use: https://placehold.co/ 
-
-      - Use bootstrap cards for each project.
-
-        - The description should give a brief overview of the work.
-
-      - Each project will eventually link to your class project work!
-
-    - A skills section
-
-      - List out the skills you expect to learn from the bootcamp.
-
-    - An about / contact section.
-
-      - An "About Me" section in the same row.
-    
-    - A footer section.
-
-      - All hyperlinks should have a hover effect.
-
-      - All buttons should display a box shadow upon hover.
-
-5. Your Bootstrap solution should minimize use of media queries.
-
-6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
 ## Helpful Resources
 
@@ -108,53 +46,15 @@ In this assignment, you'll be building your portfolio layout using the Bootstrap
 
 - [Github Pages Guide](https://pages.github.com/)
 
-  - Choose "Project Site" and "Start from Scratch" to get correct instructions.
 
 
-## Grading Requirements
+License
+MIT License
 
-This homework is graded based on the following criteria: 
+Copyright (c) [2022] [Kevin McGowan]
 
-### Technical Acceptance Criteria: 40%
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-* Satisfies all of the above acceptance criteria.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the functionality of their previous portfolio.
-
-### Repository Quality: 12%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
----
-
-## Copyright
-
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
