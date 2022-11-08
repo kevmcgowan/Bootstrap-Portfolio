@@ -18,7 +18,7 @@ Web Page & Repository
 
 ![Screenshot](Images/Screenshot-of-webpage.png?raw=true "Screenshot")
 
-Please click the link below to view the repository containg the code used to create the portfolio.
+Please click the link below to view the repository containing the code used to create the portfolio.
 
 https://github.com/kevmcgowan/Bootstrap-Portfolio
 
