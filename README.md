@@ -16,7 +16,7 @@ To navigate this repo just click the buttons in either the cards or the carsouse
 
 Web Page & Repository 
 
-![Screenshot](images/Screenshot-of-webpage.png?raw=true "Screenshot")
+![Screenshot](Images/Screenshot-of-webpage.png?raw=true "Screenshot")
 
 Please click the link below to view the repository containg the code used to create the portfolio.
 
